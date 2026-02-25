@@ -8,7 +8,6 @@ public class App {
         System.out.println(" Running on AWS EC2");
         System.out.println("=================================");
 
-        // Keep application running (important for Docker containers)
         while (true) {
             System.out.println(" Application is running successfully...");
             Thread.sleep(10000); // 10 seconds
